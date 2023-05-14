@@ -1,0 +1,282 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    overflow: hidden;
+}
+/* #imgs{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-image: url(/WhatsApp\ Image\ 2023-05-06\ at\ 14.05.31.jpg);
+    background-size: cover;
+    background-position: center;
+    left: 66.5%;
+    top: 1%;
+    z-index: 99;
+} */
+#clg{
+    position: absolute;
+    width: 500px;
+    height: 40px;
+    /* background-color: red; */
+    border: 1px solid white;
+    z-index: 99;
+    left: 30%;
+    top: 5%;
+    border-radius: 50px;
+}
+#collage{
+    position: relative;
+    left: 3%;
+    font-size: 18px;
+    top: 20%;
+}
+/* #sci{
+    position: relative;
+    left: 10%;
+    font-size: 18px;
+} */
+#box{
+    position: absolute;
+    width: 600px;
+    height: 650px;
+    background-color: transparent;
+    /* background-image: url(https://images.pexels.com/photos/5308817/pexels-photo-5308817.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
+    /* background-image: url(https://media.istockphoto.com/id/1220754002/photo/award-sparkling-background.jpg?b=1&s=170667a&w=0&k=20&c=7uynXFul-Is6UG0pyT-v3iXn_I-maJk5vO9PNlmaQ4Y=); */
+    /* background-image: url(https://static.vecteezy.com/system/resources/previews/002/449/767/original/dark-glossy-night-sky-with-stars-background-with-bulb-party-garland-free-vector.jpg); */
+    background-image: url(https://media.istockphoto.com/id/1182650732/photo/abstract-multi-colored-bokeh-background-lights-at-night-autumn-fall-winter-christmas.jpg?b=1&s=170667a&w=0&k=20&c=q23L9SJm1BT29HM8n7wz0Hmx63_CFZX-NfXnE7iNSYw=);
+    /* background-image: url(https://i.pinimg.com/736x/4e/89/aa/4e89aaca9caf1f1037cf1a8d92a4b51b.jpg); */
+    /* background-image: url(https://images.pexels.com/photos/567985/pexels-photo-567985.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
+    background-size: cover;
+    background-position: center;
+    border: 1px solid white;
+    left: 49%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+h2{
+    position: absolute;
+    font-family: sans-serif;
+    left: 28%;
+    top: 15%;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 100;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    z-index: 99;
+}
+h3{
+    position: absolute;
+    padding: 9.5% 43%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 99;
+    left: 3%;
+}
+h1{
+    position: absolute;
+    top: 24%;
+    left: 43%;
+    font-size: 25px;
+    word-spacing: 5px;
+    z-index: 99;
+    font-family: Bruno Ace;
+    /* text-transform: uppercase; */
+}
+#a{
+    position: absolute;
+    top: 30%;
+    left: 39%;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    text-shadow: 2px 2px #2bb9b2;
+    text-decoration: none;
+    letter-spacing: 2px;
+    z-index: 99;
+}
+#bb{
+    position: absolute;
+    top: 34%;
+    left: 41.5%;
+    text-transform: capitalize;
+    font-family: dancing script;
+    font-size: 35px;
+    rotate: -16deg;
+    z-index: 99;
+}
+#in{
+    position: relative;
+    top: 42%;
+    left: 43%;
+    font-family: dancing script;
+}
+#inv{
+    position: relative;
+    top: 42%;
+    left: 39%;
+    font-family: dancing script;
+}
+#invi{
+    position: relative;
+    top: 42%;
+    left: 44%;
+    font-family: dancing script;
+}
+#bbb{
+    position: relative;
+    left: 43.6%;
+    top: 43%;
+    letter-spacing: 0px;
+    font-size: 15px;
+    color: #00f7ff;
+    /* color: gold; */
+    font-weight: bold;
+    z-index: 99;
+}
+#bbbb{
+    position: relative;
+    left: 29%;
+    top: 44.5%;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-weight: 500;
+    z-index: 99;
+}
+#bbbbb{
+    position: relative;
+    left: 54%;
+    top: 42%;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 500;
+    z-index: 99;
+}
+#get{
+    position: relative;
+    top: 43%;
+    left: 37%;
+    font-family: dancing script; 
+}
+#geta{
+    position: relative;
+    top: 43%;
+    left: 41%;
+    font-family: dancing script;
+}
+/* #edm{
+    position: relative;
+    top: 42%;
+    text-transform: uppercase;
+    left: 40%;
+    font-family: sans-serif;
+    letter-spacing: 1.5px;
+    font-weight: bolder;
+    font-size: 40px;
+    color: transparent;
+    -webkit-text-stroke: 1px white ;
+    text-decoration: none;
+} */
+/* #fres{
+    position: relative;
+    top: 44%;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    left: 40.5%;
+    letter-spacing: 1.2px;
+    color: goldenrod;
+} */
+#stud{
+    position: relative;
+    top: 48%;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 15px;
+    left: 40.8%;
+    letter-spacing: 1.2px;
+}
+#p{
+    position: relative;
+    top: 54.5%;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 10px;
+    left: 30.5%;
+    letter-spacing: 1.2px;
+}
+#name{
+    position: relative;
+    top: 55%;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 10px;
+    left: 28.2%;
+    letter-spacing: 1.2px;
+}
+#mob{
+    position: relative;
+    top: 55.5%;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 12px;
+    left: 30.1%;
+    letter-spacing: 1.2px;
+}
+#cul{
+    position: relative;
+    top: 48.5%;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 10px;
+    left: 45%;
+    letter-spacing: 1.2px;
+}
+#shi{
+    position: relative;
+    top: 49%;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 10px;
+    left: 45%;
+    letter-spacing: 1.2px;
+}
+#man{
+    position: relative;
+    top: 44%;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 10px;
+    left: 60%;
+    letter-spacing: 1px;
+}
+#nam{
+    position: relative;
+    top: 45%;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 10px;
+    left: 60%;
+    letter-spacing: px;
+}
